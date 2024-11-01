@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "woo-donations-block/woo-donations",
+  "version": "0.1.0",
+  "title": "Woo Donations",
+  "category": "widgets",
+  "icon": "money-alt",
+  "description": "Woo Donations Button Widget.",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "woo-donations",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "render": "file:./render.php",
+  "attributes": {
+    "productId": {
+      "type": "string"
+    }
+  }
+}
